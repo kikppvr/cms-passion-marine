@@ -1,11 +1,12 @@
 {
   "name": "cms-passion-marine",
   "version": "1.0.0",
+  "main": "server.js",
   "scripts": {
     "start": "directus start",
     "bootstrap": "directus bootstrap"
   },
   "dependencies": {
-    "directus": "latest"
+    "directus": "11.16.1"
   }
 }
