@@ -7,7 +7,8 @@
     "bootstrap": "directus bootstrap"
   },
   "dependencies": {
-    "directus": "11.16.1"
+    "directus": "11.16.1",
+    "mysql2": "^3.11.0"
   },
   "overrides": {
     "isolated-vm": "file:./stubs/isolated-vm"
