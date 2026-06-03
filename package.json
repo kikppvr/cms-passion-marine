@@ -1,11 +1,16 @@
 {
   "name": "cms-passion-marine",
   "version": "1.0.0",
+  "main": "server.js",
   "scripts": {
     "start": "directus start",
     "bootstrap": "directus bootstrap"
   },
   "dependencies": {
-    "directus": "latest"
+    "directus": "11.16.1",
+    "mysql2": "^3.11.0"
+  },
+  "overrides": {
+    "isolated-vm": "file:./stubs/isolated-vm"
   }
 }
